@@ -229,7 +229,7 @@
                 this.optionTypeName = '添加';
                 this.formView = true;
             },
-            // 表单提
+            // 表单提交
             handleSubmit (name) {
                 this.$refs[name].validate((valid) => {
                     if (valid) {
