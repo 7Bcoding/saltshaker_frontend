@@ -679,7 +679,7 @@
                 this.formView = false;
                 this.handleReset('formValidate');
             },
-            // 表单提
+            // 表单提交
             handleSubmit (name) {
                 this.$refs[name].validate((valid) => {
                     if (valid) {
@@ -919,7 +919,7 @@
                             this.fileListPathData = res.data['data'];
                         } else {
                             this.fileListPathData = [];
-                            this.nError('Get File Tree Failure', res.data['message']);
+                            this.nError('Get File Tree Failsdure', res.data['message']);
                         }
                     },
                     err => {
